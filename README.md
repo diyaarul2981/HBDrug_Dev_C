@@ -4,6 +4,8 @@ HackBio Internship Stage 2 Drug Discovery with Machine Learning and Data Analysi
 # Step4
 Involves output data visualisation using pandas,seaborn and Scikit-learn.
 
+Feature extraction
+
 Model used RandomForestRegressor imported from scikit-learn
 
 Data split into Training and Validating using scikit-learn.
