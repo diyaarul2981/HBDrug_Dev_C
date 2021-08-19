@@ -17,5 +17,5 @@ Model used RandomForestRegressor imported from scikit-learn
 Data split into Training and Validating using scikit-learn.
 
 Scatterplot generated using matplotlib imported from seaborn.
-#Step 6
+# Step 6
 This is basically deploying our model built in step 4 into a web application. There are several ways to deploy a model but the tutorial adopted a method of deploying the model to a web application to make a prediction whereby we input our text file which is the smiles annotation and the ChemBL ID and predict the pIC50 of the compound to check whether it is within the range of approved pIC50 of compounds to binds to the target receptor Acetycolinesterase 
