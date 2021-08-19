@@ -1,4 +1,4 @@
-# Hackbio_Internship_Training
+# HackBio Internship Training
 HackBio Internship Stage 2 Drug Discovery with Machine Learning and Data Analysis
 # Step 1
 In this step, our target protein, acetylcholinesterase is searched for on the ChEMBL database using the chembl websource client python library, in order to retrieve its bioactivity data, on which operations and processes will subsequently be performed. Once the data is retrieved, preprocessing is done, including dropping missing values, or duplicates, and segregating the data into categories according to their bioactivity threshold, from which the curated data is obtained.
