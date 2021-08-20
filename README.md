@@ -28,7 +28,7 @@ The model used to make prediction is generated as a pickle file but too large to
 
 The bioactivity_prediction_app notebook was run on google colab and jupyter to generate the descriptors_list. 
 The python script (app.py) for the web application was run on the anaconda prompt terminal to host the streamlit app in a web browser.
-The python script takes in the Padel Descriptor function to calculate the pIC5O of the file tested i.e. test dataset (txt format) and generate the descriptors output file in CSV which is our prediction result.
+The python script takes in the Padel Descriptor function to calculate the pIC5O of the file tested i.e. test dataset (txt format) and generate the prediction.csv file  which is our prediction result.
 It also takes in the function of image logo which is the logo.png as the outlook of the web app.
 
 To replicate such, run the prediction notebook to generate the pickle file and run the python script using # streamlit run app.py on the terminal to host the web application on the browser and try your predictions. 
