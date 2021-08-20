@@ -20,3 +20,4 @@ Xavier (@Xaviwho)- Part 5 Model Comparison Coding
 Samar (@Samar)- Part 6 Model Deployment Coding
 Zainab (@Zainab)- Part 6 Model Deployment Coding
 
+Final edits consisted of having to reupload program files after making appropriate edits.
