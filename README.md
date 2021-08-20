@@ -17,6 +17,10 @@ Model used RandomForestRegressor imported from scikit-learn
 Data split into Training and Validating using scikit-learn.
 
 Scatterplot generated using matplotlib imported from seaborn.
+# Step 5
+In this step, Lazypredict library is used to compare several machine learning algorithms for building regression models of our acetylcholine inhibitors. Lazypredict library gives a quick and rapid model building of classification and regression models in few lines of code. The data set is split into X and Y variables, cleaned up by removing low variance features and split into Train and Test data sets with an 80:20 ratio respectively. 
+To build the model, the machine learning algorithm is assigned into a classifier variable, then assigning the results from the prediction after the model has been built and assigning it to the Train and Test variables.
+Model building uses default parameters for all algorithms used; in our case, 39 algorithms. After the models have been built, comparison of the Train and Test sets from prior model libraries used begins. Data visualization of the performance gives a bar-plot of 'R-suared' values and thus we compare RMSE values and Time taken/Calculation time. The longer the bars, the longer the time it takes to build the model. 
 # Step 6
 This is basically deploying our model built in step 4 into a web application. There are several ways to deploy a model but the tutorial adopted a method of deploying the model to a web application to make a prediction whereby we input our text file which is the smiles annotation and the ChemBL ID and predict the pIC50 of the compound to check whether it is within the range of approved pIC50 of compounds to binds to the target receptor Acetycolinesterase.
 The model used to make prediction is generated as a pickle file but too large to be uploaded, the model is represented as a random forest model zipped file and uploaded.
