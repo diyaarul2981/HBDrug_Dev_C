@@ -31,4 +31,4 @@ The python script (app.py) for the web application was run on the anaconda promp
 The python script takes in the Padel Descriptor function to calculate the pIC5O of the file tested i.e. test dataset (txt format) and generate the prediction.csv file  which is our prediction result.
 It also takes in the function of image logo which is the logo.png as the outlook of the web app.
 
-To replicate such, run the prediction notebook to generate the pickle file and run the python script using # streamlit run app.py on the terminal to host the web application on the browser and try your predictions. 
+To replicate such, run the prediction notebook to generate the pickle file and run the python script using # streamlit run app.py on the terminal to host the web application on the browser and try your predictions. We then were able to download the prediction file using the Web app, and uploaded screenshots of it running.
