@@ -31,9 +31,11 @@ The model used to make prediction is generated as a pickle file but too large to
 
 
 The source of the tutorial is https://www.youtube.com/watch?v=jBlTQjcKuaY titled Python for Bioinformatics - Drug Discovery Using Machine Learning and Data Analysis
+
 The codes and output and input csv files are included and retrieved, and all the cells must be run. The outputs are shown. The instructions to run the web application are given above.
 
 Please find the contributors list below.
+
 Max (@Max)- Part 1 Data Curation, Preprocessing, Retrieval  Coding, final edits to readme file
 
 Priyanka (@PriyankaPandit) - Part 1 Data Curation, Preprocessing, Retrieval  Coding
